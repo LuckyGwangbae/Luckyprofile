@@ -1,0 +1,90 @@
+body {
+    background-image: url('cat.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.pro {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(35px);
+    width: 320px;
+    height: 230px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-image: url('me.jpeg');
+    background-position: center;
+    background-size: 95px 95px;
+    background-position: center;
+}
+
+.main {
+    color: #000000;
+    font-size: 20px;
+    size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.sub {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    size: 14px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.subs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.wrap {
+    width: 300px;
+    margin: 30px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigbutton {
+    width: 320px;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(35px);
+    margin-bottom: 12px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.source {
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+}
+
+.wrap>a:hover {
+    background-color: #39ebd4;
+}
